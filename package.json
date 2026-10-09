@@ -1,0 +1,16 @@
+{
+  "name": "aula-api-node-express",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Exemplos e gabarito da aula de APIs REST com Node.js e Express",
+  "scripts": {
+    "exemplo:inicial": "node exemplos/app.js",
+    "exemplo:crud": "node exemplos/server.js",
+    "gabarito": "node gabarito/app.js",
+    "biblioteca": "node gabarito/biblioteca.js",
+    "test": "node gabarito/validacao.test.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
